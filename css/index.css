@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --black: #000000;
+    --main-dark: #1D1D1D;
+    --main-light: #EAEAE8;
+    --image: #EEEEEE;
+    --bg: #FFFFFF;
+    --badge-limited: #D4B0D9;
+    --badge-bestseller: #D9D6B0;
+    --error: #d60000;
+
+    --font-main: 'Inter', Arial, sans-serif;
+    --font-size-base: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-size-xxl: 32px;
+    --font-size-h2: 42px;
+    --font-weight-normal: 500;
+    --font-weight-bold: 600;
+    --font-weight-h2: 700;
+
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-xxl: 42px;
+
+    --border-radius-base: 6px;
+    --border-radius-md: 8px;
+}
+html, body {
+    font-family: var(--font-main);
+    font-size: var(--font-size-base);
+    color: var(--main-dark);
+    background: var(--bg);
+}
+h1 {
+    width: 100%;
+}
+h2, h3 {
+    line-height: 1.2;
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+}
+p, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    font-size: var(--font-size-base);
+    line-height: 1.4;
+    font-weight: var(--font-weight-normal);
+    text-transform: uppercase;
+}
+b {
+    margin: 0;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+}
+a {
+    color: var(--main-dark);
+    text-decoration: none;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    padding: 2px 0;
+    text-transform: uppercase;
+}
+nav { display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+}
+.error-loading-data {
+    font-size: var(--font-size-base);
+    color: var(--error);
+    font-weight: var(--font-weight-normal);
+    padding: 6px var(--space-sm);
+    border-radius: var(--space-sm);
+    border: 2px solid var(--error);
+    background-color: rgba(214, 0, 0, 0.2);
+    margin: var(--space-sm) 0 var(--space-lg);
+}
+@media (max-width: 600px) {
+    b {
+        font-size: var(--font-size-md);
+    }
+}
