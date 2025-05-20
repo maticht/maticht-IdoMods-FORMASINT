@@ -132,6 +132,7 @@
     padding: 13px var(--space-xxl);
     bottom: var(--space-xl);
     background-color: var(--bg);
+    color: var(--main-dark);
     outline: none;
     border: 0;
     border-radius: var(--border-radius-base);

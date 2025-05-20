@@ -31,7 +31,6 @@
     min-width: 300px;
     position: relative;
     max-width: 100%;
-    aspect-ratio: 1 / 1;
     background: transparent;
     border-radius: var(--border-radius-base);
     margin: 6px 0 6px 0;

@@ -33,7 +33,10 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-.brand-title { margin-left: var(--space-sm); }
+.brand-title {
+    margin-left: var(--space-sm);
+    color: var(--main-dark);
+}
 .header-section.left .brand-name + .brand-name {
     margin-left: 8px;
 }
